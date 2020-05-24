@@ -766,3 +766,11 @@ a {
         margin-left: 88%;
       }
     
+      .sidebar .top-container .site-nav {
+        color: #495057;
+      }
+    
+      body {
+        background: #f1f3f5;
+      }
+    
