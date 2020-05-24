@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" >
 
-<title>特讯</title>
+<title>为人民服务 | 特讯</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
@@ -12,14 +12,26 @@
 <link rel="stylesheet" href="https://teattn.github.io/styles/main.css">
 
 
+  
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
+  
+
+  
+
 
 <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 
 
 
-    <meta name="description" content="">
-    
+    <meta name="description" content="稳定快速关键极致性价比，同类产品你能找到更便宜算我输！
+推荐给所有需要出国看世界的小伙伴们！记得回来好评哦！
+性价比之王
+稳定的同时速度很快
+V2ray客户端下载
+Windows客户端：v2rayN-v3.14.zip
+V2ray安卓客户端..." />
+    <meta name="keywords" content="服务" />
   </head>
   <body>
     <div id="app" class="main">
@@ -89,32 +101,45 @@
 
       <div class="main-container">
         <div class="content-container" data-aos="fade-up">
-          
-            <article class="post-item">
-              <div class="left">
-                <a href="https://teattn.github.io/wrmfw/">
-                  <h2 class="post-title">为人民服务</h2>
-                </a>
-                <div class="post-date">
-                  2018-12-12
-                </div>
-                <div class="post-abstract">
-                  
-                </div>
+          <div class="post-detail">
+            <h2 class="post-title">为人民服务</h2>
+            <div class="post-date">2018-12-12</div>
+            
+              <div class="feature-container" style="background-image: url('https://teattn.github.io/post-images/wrmfw.jpg')">
               </div>
-              
-                <a class="right" href="https://teattn.github.io/wrmfw/">
-                  <div class="feature-container" style="background-image: url('https://teattn.github.io/post-images/wrmfw.jpg')">
-                  </div>
-                </a>
-              
-            </article>
-          
+            
+            <div class="post-content" v-pre>
+              <p>稳定快速关键极致性价比，同类产品你能找到更便宜算我输！<br>
+推荐给所有需要出国看世界的小伙伴们！记得回来好评哦！</p>
+<p>性价比之王<br>
+稳定的同时速度很快</p>
+<p>V2ray客户端下载</p>
+<p>Windows客户端：v2rayN-v3.14.zip</p>
+<p>V2ray安卓客户端：v2rayNG-v1.2.5.apk</p>
+<p>Mac客户端：v2rayU-v2.1.0.dmg</p>
+<p>Linux客户端：Qv2ray.v2.3.2.AppImage</p>
 
-          <div class="pagination-container">
-  
-  
-</div>
+            </div>
+            
+              <div class="tag-container">
+                
+                  <a href="https://teattn.github.io/AEZ86F2PA/" class="tag">
+                    服务
+                  </a>
+                
+              </div>
+            
+            
+
+            
+              
+                <div id="gitalk-container" data-aos="fade-in"></div>
+              
+
+              
+            
+
+          </div>
 
         </div>
       </div>
@@ -135,6 +160,29 @@ var app = new Vue({
 </script>
 
 
+
+
+
+  
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+    <script>
+
+      var gitalk = new Gitalk({
+        clientID: '',
+        clientSecret: '',
+        repo: '',
+        owner: '',
+        admin: [''],
+        id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+        distractionFreeMode: false  // Facebook-like distraction free mode
+      })
+
+      gitalk.render('gitalk-container')
+
+    </script>
+  
+
+  
 
 
 
